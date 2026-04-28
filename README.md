@@ -36,5 +36,5 @@ python3 ena_notary.py
 ```bash
 streamlit run ena_auditor.py
 ```
-## This codebase has been generated with some assistance of AI
+Note: This codebase has been generated with some assistance of AI
 >>>>>>> 08fc640 (Initial release of ETD Notary cum Auditor (ENA) Framework)
