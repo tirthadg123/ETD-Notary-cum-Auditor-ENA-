@@ -19,17 +19,22 @@ A decentralized "Zero-Trust" framework for securing Electronic Theses and Disser
    pip install -r requirements.txt
 
 ## 3. Setting up Ganache
+
+```bash
 mkdir ganache_data
 npx ganache --database.dbPath ./ganache_data --wallet.defaultBalance 1000
-   
+   ```
 ## 4. Deploying the smart contract
+```bash
 python3 deploy_ena_notary.py
-
+```
 ## 5. Running the ENA Notary
+```bash
 python3 ena_notary.py
-
+```
 ## 6. Running the ENA Auditor
+```bash
 streamlit run ena_auditor.py
-
-# NOTE : This codebase has been generated with some assistance of AI
+```
+## This codebase has been generated with some assistance of AI
 >>>>>>> 08fc640 (Initial release of ETD Notary cum Auditor (ENA) Framework)
