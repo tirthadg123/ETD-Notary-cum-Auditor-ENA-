@@ -6,7 +6,7 @@ from web3 import Web3
 
 DSPACE_API_URL = "http://localhost:8080/server/api"
 GANACHE_URL = "http://127.0.0.1:8545"
-CONTRACT_ADDRESS = "0x389810b5C090A1e729F0ec6acD55E9f6a3f96E70" # Enter the contact address obtained upon notary deployment
+CONTRACT_ADDRESS = "" # Enter the contact address obtained upon notary deployment
 CONTRACT_ABI = [
     {
         "inputs": [{"internalType": "string", "name": "_uuid", "type": "string"}],
