@@ -8,7 +8,7 @@ DSPACE_API_URL = "http://localhost:8080/server/api"
 DSPACE_EMAIL = "tirtharajdasgupta963@gmail.com" # Enter the DSpace e-mail id
 DSPACE_PASSWORD = "dspace" # Enter the DSpace login password
 GANACHE_URL = "http://127.0.0.1:8545"
-CONTRACT_ADDRESS = "0x389810b5C090A1e729F0ec6acD55E9f6a3f96E70" # Enter the contact address obtained upon notary deployment
+CONTRACT_ADDRESS = "" # Enter the contact address obtained upon notary deployment
 CONTRACT_ABI = [
     {
         "inputs": [
